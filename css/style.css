@@ -17,6 +17,41 @@
   height: 300px;
 }
 
+.h400 {
+  height: 400px;
+}
+
 .jumbo-tron {
   background-color: rgb(35, 248, 177);
+}
+
+.title {
+  text-align: center;
+  margin: 20px auto;
+}
+
+/* about */
+
+.about {
+  background-color: rgb(35, 248, 177);
+}
+
+.top-footer {
+  background-color: gray;
+}
+
+.bottom-footer {
+  background-color: black;
+}
+
+.top-text {
+  text-align: center;
+  color: white;
+}
+
+.text {
+  text-align: center;
+  line-height: 100px;
+  vertical-align: middle;
+  color: white;
 }
