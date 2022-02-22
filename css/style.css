@@ -5,6 +5,10 @@
 
 /*utilities*/
 
+.h50 {
+  height: 50px;
+}
+
 .h100 {
   height: 100px;
 }
@@ -19,6 +23,14 @@
 
 .h400 {
   height: 400px;
+}
+
+.h700 {
+  height: 700px;
+}
+
+.h100per {
+  height: 100%;
 }
 
 .jumbo-tron {
@@ -37,11 +49,11 @@
 }
 
 .top-footer {
-  background-color: gray;
+  background-color: rgb(61, 61, 255);
 }
 
 .bottom-footer {
-  background-color: black;
+  background-color: rgb(32, 32, 32);
 }
 
 .top-text {
@@ -56,6 +68,41 @@
   color: white;
 }
 
-.navbar-collapse {
+.justify-end {
   justify-content: flex-end;
+}
+
+.ec-align-content {
+  align-content: center;
+}
+
+span {
+  color: rgb(35, 248, 177);
+}
+
+nav li,
+nav i,
+.ec-icon i {
+  display: inline-block;
+  list-style-type: none;
+  vertical-align: middle;
+}
+
+nav li a {
+  text-decoration: none;
+  color: white;
+}
+
+.text-header {
+  color: white;
+  line-height: 50px;
+  vertical-align: center;
+}
+
+.ec-icon i {
+  color: white;
+}
+
+img {
+  height: 300px;
 }
