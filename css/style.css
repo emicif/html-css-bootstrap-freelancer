@@ -1,8 +1,3 @@
-.navbar-nav,
-.navbar .nav li a {
-  color: white;
-}
-
 /*utilities*/
 
 .h50 {
@@ -13,34 +8,40 @@
   height: 100px;
 }
 
-.h200 {
-  height: 200px;
-}
-
 .h300 {
   height: 300px;
 }
 
-.h400 {
-  height: 400px;
-}
-.h500 {
-  height: 500px;
-}
-
-.h700 {
-  height: 700px;
-}
-
 .jumbo-tron {
   background-color: rgb(35, 248, 177);
-  /* color: white; */
 }
 
 .title h2,
 .title .star {
   text-align: center;
   margin: 20px auto;
+}
+
+/* nav */
+
+nav li,
+nav i {
+  display: inline-block;
+  list-style-type: none;
+  vertical-align: middle;
+}
+
+nav li a {
+  text-decoration: none;
+}
+
+.text-header {
+  line-height: 50px;
+  vertical-align: center;
+}
+
+.avatar {
+  height: 350px;
 }
 
 /* about */
@@ -59,14 +60,12 @@
 
 .top-text {
   text-align: center;
-  color: white;
 }
 
 .text {
   text-align: center;
   line-height: 100px;
   vertical-align: middle;
-  color: white;
 }
 
 .justify-end {
@@ -79,31 +78,4 @@
 
 span {
   color: rgb(35, 248, 177);
-}
-
-nav li,
-nav i,
-.ec-icon i {
-  display: inline-block;
-  list-style-type: none;
-  vertical-align: middle;
-}
-
-nav li a {
-  text-decoration: none;
-  color: white;
-}
-
-.text-header {
-  color: white;
-  line-height: 50px;
-  vertical-align: center;
-}
-
-.ec-icon i {
-  color: white;
-}
-
-img {
-  height: 300px;
 }
