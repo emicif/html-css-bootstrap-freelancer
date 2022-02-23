@@ -24,20 +24,21 @@
 .h400 {
   height: 400px;
 }
+.h500 {
+  height: 500px;
+}
 
 .h700 {
   height: 700px;
 }
 
-.h100per {
-  height: 100%;
-}
-
 .jumbo-tron {
   background-color: rgb(35, 248, 177);
+  /* color: white; */
 }
 
-.title {
+.title h2,
+.title .star {
   text-align: center;
   margin: 20px auto;
 }
